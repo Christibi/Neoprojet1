@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f78ea5cb7154a7fce253e7f2cfb084b6",
+    "content-hash": "4006dbb3ea9599111c70e2276f57545e",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -7291,6 +7291,35 @@
             "time": "2020-05-12T15:16:56+00:00"
         },
         {
+            "name": "realitech/com",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./DistributionPackages/RealiTech.com",
+                "reference": "02149ae17708ed42676af4405bcfbdf5bbec6ed0"
+            },
+            "require": {
+                "neos/neos": "*"
+            },
+            "suggest": {
+                "neos/seo": "*"
+            },
+            "type": "neos-site",
+            "extra": {
+                "neos": {
+                    "package-key": "RealiTech.com"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "RealiTech\\com\\": "Classes/"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "seld/jsonlint",
             "version": "1.8.3",
             "source": {
@@ -11101,7 +11130,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "realitech/com": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

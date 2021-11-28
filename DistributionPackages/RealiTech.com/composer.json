@@ -1,0 +1,21 @@
+{
+    "description": "",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "*"
+    },
+    "suggest": {
+        "neos/seo": "*"
+    },
+    "name": "realitech/com",
+    "autoload": {
+        "psr-4": {
+            "RealiTech\\com\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "RealiTech.com"
+        }
+    }
+}
